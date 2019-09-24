@@ -27,3 +27,5 @@ Route::get('helloworld', function () {
 Route::get('/test', function () {
     return view('oisin');
 });
+
+Route::get('/hello', 'helloController@hello');
